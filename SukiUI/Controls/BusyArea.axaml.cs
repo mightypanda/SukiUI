@@ -10,11 +10,6 @@ public partial class BusyArea : UserControl
     {
         InitializeComponent();
     }
-
-    private void InitializeComponent()
-    {
-        AvaloniaXamlLoader.Load(this);
-    }
     
     public static readonly StyledProperty<bool> IsBusyProperty = AvaloniaProperty.Register<BusyArea, bool>(nameof(IsBusy), defaultValue: false);
 

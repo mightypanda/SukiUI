@@ -46,11 +46,6 @@ namespace SukiUI.Controls;
             set { SetValue(SelectedStarsProperty, value); UpdateStarSelection(); }
         }
 
-        private void InitializeComponent()
-        {
-            AvaloniaXamlLoader.Load(this);
-        }
-
         private void InitializeStars()
         {
             var starPanel = this.FindControl<StackPanel>("StarPanel");

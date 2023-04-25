@@ -24,8 +24,11 @@ namespace AndroidTest.Views
         {
             InitializeComponent();
 
-            this.FindControl<Stepper>("myStep").Steps = new ObservableCollection<string>() { "Ordered", "Sent", "In Progress", "Delivered" };
-            this.FindControl<Stepper>("myStep").Index = 2;
+            this.myStep.Steps = new ObservableCollection<string>() { "Ordered", "Sent", "In Progress", "Delivered" };
+            this.myStep.Index = 2;
+
+			// this.FindControl<Stepper>("myStep").Steps = new ObservableCollection<string>() { "Ordered", "Sent", "In Progress", "Delivered" };
+            // this.FindControl<Stepper>("myStep").Index = 2;
 
         }
 

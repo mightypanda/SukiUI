@@ -14,11 +14,6 @@ public partial class TouchNumericPad : UserControl
         InitializeComponent();
     }
 
-    private void InitializeComponent()
-    {
-        AvaloniaXamlLoader.Load(this);
-    }
-
     private void OpenPopup(object sender, RoutedEventArgs e)
     {
         var dialog = new NumericPadPopUp()

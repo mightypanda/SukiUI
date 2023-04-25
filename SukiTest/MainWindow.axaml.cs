@@ -80,11 +80,6 @@ namespace SukiTest
 #endif
         }
 
-        private void InitializeComponent()
-        {
-            AvaloniaXamlLoader.Load(this);
-        }
-
         private void ShowInfoBox(object sender, RoutedEventArgs e)
         {
             MessageBox.Info(this, "Info", "Here is a random Information message");

@@ -17,11 +17,6 @@ public partial class NumericPadPopUp : UserControl
 
     public TouchNumericPad rootControl = null;
     
-    private void InitializeComponent()
-    {
-        AvaloniaXamlLoader.Load(this);
-    }
-
     private TextBlock _textBlock;
 
     public string CurrentText = "";

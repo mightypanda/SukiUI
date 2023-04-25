@@ -30,11 +30,6 @@ namespace SukiUI.Controls
 
         // private DesktopPageViewModel ViewModel = new DesktopPageViewModel();
 
-        private void InitializeComponent()
-        {
-            AvaloniaXamlLoader.Load(this);
-        }
-
         public static readonly StyledProperty<HorizontalAlignment> TitleHorizontalAlignmentProperty = AvaloniaProperty.Register<DesktopPage, HorizontalAlignment>(nameof(TitleHorizontalAlignment), defaultValue: HorizontalAlignment.Left);
 
         public HorizontalAlignment TitleHorizontalAlignment

@@ -12,11 +12,6 @@ namespace SukiUI.Controls
             InitializeComponent();
         }
 
-        private void InitializeComponent()
-        {
-            AvaloniaXamlLoader.Load(this);
-        }
-
         public static readonly StyledProperty<string> HeaderProperty =
             AvaloniaProperty.Register<CircleProgressBar, string>(nameof(Header), defaultValue: "Header");
 

@@ -15,10 +15,6 @@ public partial class MobileNumberPicker : UserControl
         InitializeComponent();
     }
 
-    private void InitializeComponent()
-    {
-        AvaloniaXamlLoader.Load(this);
-    }
     private int _value;
     
     /// <summary>

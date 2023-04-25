@@ -20,13 +20,6 @@ namespace SukiUI.Controls
             InitializeComponent();
             Update();
         }
-
-        private void InitializeComponent()
-        {
-            AvaloniaXamlLoader.Load(this);
-            
-        }
-        
         
         private int _index;
     

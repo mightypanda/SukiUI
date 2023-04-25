@@ -22,14 +22,9 @@ public partial class TouchKeyboardPopUp : UserControl
     public TouchKeyboardPopUp()
     {
         InitializeComponent();
-    }
 
-    private void InitializeComponent()
-    {
-        AvaloniaXamlLoader.Load(this);
-        _textBlock = this.FindControl<TextBlock>("TextKeyboard");
-    }
-    
+		_textBlock = this.FindControl<TextBlock>("TextKeyboard");
+	}
 
     private void Close(object sender, RoutedEventArgs e)
     {

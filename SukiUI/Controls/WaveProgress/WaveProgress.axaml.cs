@@ -11,11 +11,6 @@ public partial class WaveProgress : UserControl
     {
         InitializeComponent();
     }
-
-    private void InitializeComponent()
-    {
-        AvaloniaXamlLoader.Load(this);
-    }
     
     private int _value = 50;
     public int Value

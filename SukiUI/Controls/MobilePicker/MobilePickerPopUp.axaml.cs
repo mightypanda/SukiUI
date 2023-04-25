@@ -16,11 +16,6 @@ public partial class MobilePickerPopUp : UserControl
   
     }
 
-    private void InitializeComponent()
-    {
-        AvaloniaXamlLoader.Load(this);
-    }
-
     private void DoneClick(object sender, RoutedEventArgs e)
     {
         InteractiveContainer.CloseDialog();

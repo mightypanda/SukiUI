@@ -13,9 +13,5 @@ namespace SukiUI.Controls
            
         }
 
-        private void InitializeComponent()
-        {
-            AvaloniaXamlLoader.Load(this);
-        }
     }
 }

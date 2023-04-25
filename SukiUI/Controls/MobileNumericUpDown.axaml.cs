@@ -16,11 +16,6 @@ public partial class MobileNumericUpDown : UserControl
         InitializeComponent();
     }
 
-    private void InitializeComponent()
-    {
-        AvaloniaXamlLoader.Load(this);
-    }
-
     private int _value;
 
     public static readonly DirectProperty<MobileNumericUpDown, int> ValueProperty =

@@ -27,12 +27,6 @@ namespace SukiUI.MessageBox
 
         }
 
-
-        private void InitializeComponent()
-        {
-            AvaloniaXamlLoader.Load(this);
-        }
-
         public static void Info(Window owner, string Title, string Message, WindowStartupLocation startupLocation = WindowStartupLocation.CenterScreen)
         {
             var mbox = new MessageBox(Title, Message);

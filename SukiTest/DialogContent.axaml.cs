@@ -13,11 +13,6 @@ namespace SukiTest
             InitializeComponent();
         }
 
-        private void InitializeComponent()
-        {
-            AvaloniaXamlLoader.Load(this);
-        }
-
         private void CloseDialog(object sender, RoutedEventArgs e)
         {
             InteractiveContainer.CloseDialog();

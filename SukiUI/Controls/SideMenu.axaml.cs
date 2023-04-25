@@ -18,11 +18,6 @@ namespace SukiUI.Controls
             InitializeComponent();
         }
 
-        private void InitializeComponent()
-        {
-            AvaloniaXamlLoader.Load(this);
-        }
-
         private void PaneIsClosing(object sender, CancelRoutedEventArgs ev)
         {
             ((SideMenuModel)this.DataContext).MenuVisibility = false;

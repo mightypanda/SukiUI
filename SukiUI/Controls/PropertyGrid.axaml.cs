@@ -20,11 +20,6 @@ namespace SukiUI.Controls
             InitializeComponent();
         }
 
-        private void InitializeComponent()
-        {
-            AvaloniaXamlLoader.Load(this);
-        }
-
         public static readonly StyledProperty<object> ItemProperty = AvaloniaProperty.Register<PropertyGrid, object>(nameof(Item), defaultValue: new object());
 
         public object Item

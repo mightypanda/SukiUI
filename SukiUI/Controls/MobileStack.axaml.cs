@@ -20,12 +20,6 @@ namespace SukiUI.Controls
             InitializeComponent();
         }
 
-     
-        private void InitializeComponent()
-        {
-            AvaloniaXamlLoader.Load(this);
-        }
-
         public void PopPage()
         {    
             if (Pages.Count == 0)

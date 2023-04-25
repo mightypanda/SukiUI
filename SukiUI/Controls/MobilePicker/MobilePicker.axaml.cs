@@ -15,15 +15,7 @@ public partial class MobilePicker : UserControl
     public MobilePicker()
     {
         InitializeComponent();
-    }
-
-    private void InitializeComponent()
-    {
-        AvaloniaXamlLoader.Load(this);
-    }
-    
-
-    
+    }    
     
     private string _selectedItem;
     public string SelectedItem

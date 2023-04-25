@@ -22,10 +22,6 @@ public partial class MobileNumberPickerPopup : UserControl
         SetTextValues(_mobile.Value);
         CurrentValue = _mobile.Value;
     }
-    private void InitializeComponent()
-    {
-        AvaloniaXamlLoader.Load(this);
-    }
 
     public MobileNumberPicker _MobileNumberPicker = null;
     

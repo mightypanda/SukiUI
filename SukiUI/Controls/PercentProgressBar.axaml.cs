@@ -18,11 +18,6 @@ public partial class PercentProgressBar : UserControl
         _icon = this.FindControl<MaterialIcon>("iconPercent");
     }
 
-    private void InitializeComponent()
-    {
-        AvaloniaXamlLoader.Load(this);
-    }
-    
     // Declare private fields for controls
     private ProgressBar _progressBar;
     private TextBlock _textBlock;
