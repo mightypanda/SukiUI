@@ -17,12 +17,6 @@ namespace AndroidTest.Views
             InitializeComponent();
             MyMenu.menu = this.FindControl<MobileMenuPage>("myMenu");
         }
-
-        private void InitializeComponent()
-        {
-            AvaloniaXamlLoader.Load(this);
-        }
-
         
         private int i = 0;
         private void ChangeTheme(object? sender, RoutedEventArgs e)

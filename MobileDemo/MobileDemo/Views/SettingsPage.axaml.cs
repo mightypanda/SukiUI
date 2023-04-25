@@ -20,11 +20,6 @@ namespace AndroidTest.Views
             InitializeComponent();
         }
 
-        private void InitializeComponent()
-        {
-            AvaloniaXamlLoader.Load(this);
-        }
-
         private void ComeBack(object? sender, RoutedEventArgs e)
         {
             MobileStack.Pop();

@@ -29,11 +29,6 @@ namespace AndroidTest.Views
 
         }
 
-        private void InitializeComponent()
-        {
-            AvaloniaXamlLoader.Load(this);
-        }
-
         private void ShowFlyout(object sender, RoutedEventArgs e)
         {
 

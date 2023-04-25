@@ -13,11 +13,6 @@ namespace AndroidTest.Views
             InitializeComponent();
         }
 
-        private void InitializeComponent()
-        {
-            AvaloniaXamlLoader.Load(this);
-        }
-
         private void HandlerClose(object sender, RoutedEventArgs e)
         {
             InteractiveContainer.CloseDialog();
