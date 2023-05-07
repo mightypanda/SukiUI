@@ -104,7 +104,7 @@ namespace SukiTest
 
         private void ShowNotification(object sender, RoutedEventArgs e)
         {
-            if(notificationManager == null)
+            if (notificationManager == null)
                 notificationManager = new WindowNotificationManager(this);
             
             try
